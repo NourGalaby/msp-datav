@@ -1,23 +1,30 @@
-<?php 
-session_start();
-
-//check if user have right to access.
-	if($_SESSION['inside']!= 11){
-
-header("Location: index.html");
-exit;
-}
- ?>
+<!DOCTYPE html>
 <html>
-<body>
-
+<head>
+<title>
+Import Your File
+</title>
+</head>
+<body bgcolor="#33ccff">
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+<CENTER>
 <form action="upload.php" method="post" enctype="multipart/form-data">
-    Select Excel file to upload:<br />
-    <input type="file" name="fileToUpload" id="fileToUpload">
+    <font ><b>Select Excel file to upload:</b></font><br /><br /><br /><br />
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="file" name="fileToUpload" id="fileToUpload">
+    <br />
     <br />
     <input type="submit" value="Upload file" name="submit">
-    <br />
 </form>
-
+</CENTER>
 </body>
 </html> 
