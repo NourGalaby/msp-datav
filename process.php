@@ -21,7 +21,7 @@ $password = $_POST['password'];
 
 
 
-if(($username ==="nour") && ($password==="1234")){
+if(($username ==="noha") && ($password==="msp@2016")){
 
 //echo "inn";
 	//set session to 11 speical key 
