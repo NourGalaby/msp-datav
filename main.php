@@ -35,7 +35,7 @@ Import Your File
 
     if($handle = opendir($dir.'/'))
     {
-       echo 'files uploaded:'.'<br>' ;
+       echo 'files uploaded: '.'<br>' ;
 
 while ($file = readdir($handle)){
 	if($file!='.' && $file!='..')
